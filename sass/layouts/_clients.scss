@@ -1,0 +1,41 @@
+.clients-list {
+    display: flex;
+  
+  }
+  .clients-items {
+  
+    width: calc((100% - 150px) / 6);
+  }
+    
+    .clients-items + .clients-items {
+      margin-left: 30px;
+    }
+  
+  
+    .clients-link {
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      padding:16px 32px;
+      border: 1px solid #AFB1B8;
+      border-radius: 4px;
+      fill:#AFB1B8;
+      transition: fill 250ms var(--timing-function), border 250ms var(--timing-function);
+    }
+    .clients-icons {    width: 106px;
+      height: 60px;
+    
+  }
+  
+    .clients-link:hover,
+    .clients-link:focus {
+      fill:var(--link-color);
+      border: 1px solid #2196F3;
+      transition: fill 250ms var(--timing-function), border 250ms var(--timing-function);
+   }
+   .clients-icons:hover,
+   .clients-icons:focus {
+    fill:var(--link-color);
+    transition: fill 250ms var(--timing-function);}
+  
+  
