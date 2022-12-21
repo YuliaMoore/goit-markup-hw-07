@@ -1,17 +1,12 @@
 .clients-list {
     display: flex;
-  
+  gap: 30px;
   }
   .clients-items {
-  
     width: calc((100% - 150px) / 6);
   }
     
-    .clients-items + .clients-items {
-      margin-left: 30px;
-    }
-  
-  
+ 
     .clients-link {
       display: flex;
       justify-content:center;

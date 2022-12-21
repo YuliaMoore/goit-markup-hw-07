@@ -4,16 +4,17 @@
   font-size: 26px;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
-
-.logo-link {
+  
+  &-link {
     color: var(--link-color);
 }
   
-.logo-header {
+&-header {
     color: var(--logoblack);
 }
 
-.logo-footer {
+&-footer {
     color: var(--lighttxt-color);
 }
+}
+

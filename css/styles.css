@@ -283,7 +283,7 @@ background-size:cover ;
 }
 
 .benefits .unit {
-  flex-basis: calc((100% - 120px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .benefits .unit + .unit {
