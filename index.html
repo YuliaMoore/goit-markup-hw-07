@@ -251,18 +251,18 @@
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <form class="modal-form">
           <div class="modal-input-group">
-            <label for="name" class="modal-label">Ім'я</label> 
+            <label for="user_name" class="modal-label">Ім'я</label> 
             <div class="modal-input-wrapper">
-              <input type="text" class="modal-input" placeholder=" " name="name" required>
+              <input type="text" class="modal-input" placeholder=" " name="user_name" id="user_name" required>
                 <svg class="icon-modal" height="18" width="18">
                   <use href="./images/icons.svg#icon-person"></use>
                 </svg>
             </div>
           </div>
           <div class="modal-input-group">
-            <label for="tel"  class="modal-label">Телефон</label>
+            <label for="user_tel"  class="modal-label">Телефон</label>
             <div class="modal-input-wrapper">
-              <input type="tel" class="modal-input invalid" placeholder="+380631111111" 
+              <input type="tel" id="user_tel" class="modal-input invalid" placeholder="+380631111111" 
               title="+380631111111" value="" 
               name="tel" pattern="[\+]\d{3}\s[(]d{2}[\)]\s\d{3}[\]\d{2}[\]\d{2}" required>
               <svg class="icon-modal" height="18" width="18"><use href="./images/icons.svg#icon-phone"></use></svg>
